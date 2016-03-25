@@ -10,5 +10,5 @@ set(Boost_USE_STATIC_RUNTIME     OFF)
 
 add_definitions("-DBOOST_ALL_NO_LIB")
 
-find_package(Boost 1.55.0 COMPONENTS thread)
+find_package(Boost 1.55.0 COMPONENTS thread REQUIRED)
 include_directories(${Boost_INCLUDE_DIRS})
